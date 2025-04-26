@@ -15,7 +15,7 @@ Hosted on [Coursera](https://www.coursera.org/)
 
 ## Modules
 
-* ### [01 - Intro To JavaScript Development](./01-IntoToJavaScriptDevelopment/)
+* ### [01 - Intro To JavaScript Development](./01-IntroToJavaScriptDevelopment/)
      Learn about introductory JavaScript development concepts and the basics of software development
 
 <hr/>
