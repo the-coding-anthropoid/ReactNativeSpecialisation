@@ -129,15 +129,11 @@ Arrow functions were introduced in ECMAScript 6, referred to as ES6. They offer 
 They provide a more compact and readable syntax for creating functions compared to traditional function expressions. They are especially
 useful for simple one liner functions. Just like traditional functions, arrow functions can be parameterized and non parameterized.
 
-> </br>
->
 > #### Key points
 >
 > * Arrow functions have a more compact and readable syntax
 > * They use a fat arrow to define the function
 > * Arrow functions do not require the function keyword
->
-> </br>
 
 
 Arrow functions are not a complete replacement for traditional functions. Traditional functions are still necessary in
