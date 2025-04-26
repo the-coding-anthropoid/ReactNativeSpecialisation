@@ -4,11 +4,11 @@ let userRole = "admin";
 let accessLevel;
 
 if (userRole === "admin") {
-    accessLevel = "Full access granted";
+  accessLevel = "Full access granted";
 } else if (userRole === "manager") {
-    accessLevel = "Limited access granted";
+  accessLevel = "Limited access granted";
 } else {
-    accessLevel = "No access granted";
+  accessLevel = "No access granted";
 }
 
 console.log("Access Level:", accessLevel);
@@ -20,13 +20,13 @@ let isLoggedIn = true;
 let userMessage;
 
 if (isLoggedIn) {
-    if (userRole === "admin") {
-        userMessage = "Welcome, Admin!";
-    } else {
-        userMessage = "Welcome, User!";
-    }
+  if (userRole === "admin") {
+    userMessage = "Welcome, Admin!";
+  } else {
+    userMessage = "Welcome, User!";
+  }
 } else {
-    userMessage = "Please log in to access the system.";
+  userMessage = "Please log in to access the system.";
 }
 
 console.log("User Message:", userMessage);
@@ -38,17 +38,17 @@ let userType = "subscriber";
 let userCategory;
 
 switch (userType) {
-    case "admin":
-        userCategory = "Administrator";
-        break;
-    case "manager":
-        userCategory = "Manager";
-        break;
-    case "subscriber":
-        userCategory = "Subscriber";
-        break;
-    default:
-        userCategory = "Unknown";
+  case "admin":
+    userCategory = "Administrator";
+    break;
+  case "manager":
+    userCategory = "Manager";
+    break;
+  case "subscriber":
+    userCategory = "Subscriber";
+    break;
+  default:
+    userCategory = "Unknown";
 }
 
 console.log("User Category:", userCategory);
@@ -89,18 +89,18 @@ const user4 = "other";
 const userList = [user1, user2, user3, user4];
 
 userList.forEach(element => {
-    let msg = "You are authorised access to: Dietary Services"
-    switch (element) {
-        case "employee":
-            break;
-        case "enrolled":
-            msg += " and 1-on-1 interactions with a dietician";
-            break;
-        case "subscriber":
-            msg += "(partial access only)";
-            break;
-        default:
-            msg = "You must either enroll or subscribe to use this facility.";
-    }
-    console.log(msg);
+  let msg = "You are authorised access to: Dietary Services"
+  switch (element) {
+    case "employee":
+      break;
+    case "enrolled":
+      msg += " and 1-on-1 interactions with a dietician";
+      break;
+    case "subscriber":
+      msg += "(partial access only)";
+      break;
+    default:
+      msg = "You must either enroll or subscribe to use this facility.";
+  }
+  console.log(msg);
 });

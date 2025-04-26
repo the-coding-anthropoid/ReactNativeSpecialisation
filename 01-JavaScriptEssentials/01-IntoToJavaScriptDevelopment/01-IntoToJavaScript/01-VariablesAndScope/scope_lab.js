@@ -7,10 +7,10 @@ const globalConst = "I'm a global constant";
 
 
 {
-    // Block scope
-    var blockVar = "I'm a block-scoped var";
-    let blockLet = "I'm a block-scoped let";
-    const blockConst = "I'm a block-scoped const";
+  // Block scope
+  var blockVar = "I'm a block-scoped var";
+  let blockLet = "I'm a block-scoped let";
+  const blockConst = "I'm a block-scoped const";
 }
 
 /* == Step 3: Scope of variables at a global level == */
@@ -29,9 +29,9 @@ console.log(blockVar); // Exists in this scope
 /* == Step 5: Scope of variables for function scope == */
 
 function show() {
-    var functionVar = "I'm a block-scoped var";
-    let functionLet = "I'm a block-scoped let";
-    const functionConst = "I'm a block-scoped const";
+  var functionVar = "I'm a block-scoped var";
+  let functionLet = "I'm a block-scoped let";
+  const functionConst = "I'm a block-scoped const";
 }
 show();
 
@@ -49,13 +49,13 @@ be done or not. */
 
 // 1
 {
-    let letVar = "I'm a let variable in a block";
-    const constVar = "I'm a const variable in a block";
-    var varVar = "I'm a var variable in a block";
-    // 2
-    letVar = "I have been re-assigned";
-    // constVar = "This should not work"; //! Uncaught TypeError
-    varVar = "I have been reassigned";
+  let letVar = "I'm a let variable in a block";
+  const constVar = "I'm a const variable in a block";
+  var varVar = "I'm a var variable in a block";
+  // 2
+  letVar = "I have been re-assigned";
+  // constVar = "This should not work"; //! Uncaught TypeError
+  varVar = "I have been reassigned";
 }
 
 // 3
