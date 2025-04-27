@@ -165,3 +165,87 @@ function add(a, b) {
 const result = add(3,4) // the value 7 is returned from the function and stored
 console.log(add(3,4)) // the value 7 is returned from the function and used by log
 ```
+
+## Function Closure and Function Hoisting
+
+### Function Closure
+
+This pertains to a functions that retains access to variables from its enclosing function scope. Even after the enclosing function has finished executing, closures allow you to create private variables, implement data hiding, and maintain state between function calls.
+
+```javascript
+function outerFunction() {
+    const outerVar = "I am from the outer function";
+
+    function innerFunction() {
+        console.log(outerVar); // innerFunction can access outerVar
+    }
+
+    return innerFunction;
+}
+
+const closure = outerFunction();
+closure(); // This will log "I am from the outer function"
+```
+
+Closures allow you to encapsulate data within a function scope, creating a private environment for variables. This is
+crucial for building modular and maintainable code, As it helps prevent unintended interference or modification of
+variables from outside the function. By using closures, you can hide certain data and expose only the necessary parts of
+your code's functionality.
+
+Closures enable functions to remember and maintain state between function calls.
+```javascript
+function logNewUsers() {
+  let users = 0;
+
+  function addUser() {
+    console.log(++users);
+  }
+
+  return addUser;
+}
+
+const newUser = logNewUsers();
+
+newUser();  // 1
+newUser();  // 2
+```
+
+This is valuable for tasks like implementing counters, timers, or managing application state in event driven programming.
+
+
+### Function Hoisting.
+
+Function hoisting, is a behaviour in Javascript where function declarations are moved to the top of their containing scope
+during the compilation phase, allowing you to use a function before it's actually declared in the code.
+
+This behaviour only applies to function declarations, not function expressions.
+
+```javascript
+hoistedFunction(); // Function declaration will be hoisted
+
+function hoistedFunction() {
+    console.log("This is okay.");
+}
+
+unHoistedFunction(); // Cannot be called before function expression is defined
+
+const unHoistedFunction = function() {
+    console.log("This will result in an error");
+}
+
+```
+
+Function hoisting is crucial for recursive functions, as it allows the function to
+call itself within its own definition. Additionally, function hoisting allows for
+the conditional execution of functions based on certain criteria without having
+to define them in a specific order.
+
+### Comparison
+
+| Aspect | Function Closures | Function Hoisting |
+| :----- | :---------------- | :---------------- |
+| Definition | Retains access to outer variables | Moves function declaration to the top |
+| Careful Usage | Requires understanding for intended use | Use with caution to avoid issues |
+| Applications | Modular code, event handling, state | Structuring code, pre-declaration calls |
+| Usage | Private variables, data hiding, state | Code organisation, readability, recursion |
+| Importance | Data encapsulation, maintainable code | Order Independence, structured code |
