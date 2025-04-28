@@ -249,3 +249,57 @@ to define them in a specific order.
 | Applications | Modular code, event handling, state | Structuring code, pre-declaration calls |
 | Usage | Private variables, data hiding, state | Code organisation, readability, recursion |
 | Importance | Data encapsulation, maintainable code | Order Independence, structured code |
+
+## Events
+
+Common Events are click, mouseover, keydown and change.
+
+The following example uses events to change the content of a paragraph:
+
+```html
+<!DOCTYPE html>
+<htmL>
+
+<head>
+    <title>Click Event Handling</title>
+</head>
+
+<body>
+    <button id="myButton">Click me</button>
+    <div id="myDiv">Hover over me</div>
+    <input type="text" id="myInput">
+    <p>Output: <span id="output"></span></p>
+    <p>Keydown: <span id="keydownOutput"></span></p>
+    <p>Change: <span id="changeOutput"></span></p>
+    <script>
+        const button = document.getElementById("myButton");
+        const div = document.getElementById("myDiv");
+        const input = document.getElementById('myInput');
+
+        const output = document.getElementById("output");
+        const kdOut = document.getElementById("keydownOutput");
+        const changeOut = document.getElementById("changeOutput");
+
+        // anonymous function expression attached to the button's onclick event
+        button.onclick = function () {
+            output.textContent = "Button clicked!";
+        };
+
+        // anonymous function expression attached to the div's mouseover event
+        div.onmouseover = function () {
+            output.textContent = "Mouse over the Div!";
+        };
+
+        // anonymous function expression attacked to the input keydown event
+        input.onkeydown = function (event) {
+            kdOut.textContent = `${event.key} being pressed`;
+        }
+
+        input.onchange = function () {
+            changeOut.textContent = `Value changed to: ${input.value}`;
+        }
+    </script>
+</body>
+
+</html>
+```
