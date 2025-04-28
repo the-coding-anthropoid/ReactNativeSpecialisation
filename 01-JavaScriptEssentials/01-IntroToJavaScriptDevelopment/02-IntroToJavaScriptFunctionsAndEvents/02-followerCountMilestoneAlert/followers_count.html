@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Interactive Counter</title>
+</head>
+
+<body>
+    <h1>Interactive Counter</h1>
+
+    <hr>
+
+    <h2>Lab</h2>
+    <h3>Account Holder Name: Peter Parker</h3>
+    <p>Followers: <span id="peterCountDisplay">0</span></p>
+    <button onclick="increaseCount()">Follow</button>
+    <button onclick="resetCount()">Reset Count</button>
+
+    <hr>
+
+    <h2>My In Closure Attempt</h2>
+    <h3>Account Holder Name: Mary-Jane Watson</h3>
+    <p>Followers: <span id="maryCountDisplay">0</span></p>
+    <button onclick="increaseMaryCount()">Follow</button>
+    <button onclick="resetMaryCount()">Reset Count</button>
+
+    <hr>
+
+    <h2>Third Party Example</h2>
+    <h3>Account Holder Name: Harry Osborn</h3>
+    <p>Followers: <span id="harryCountDisplay">0</span></p>
+    <button onclick="counter.increment()">Follow</button>
+    <button onclick="counter.reset()">Reset Count</button>
+
+
+    <script src="./followers_count.js"></script>
+</body>
+
+</html>
