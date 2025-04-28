@@ -9,8 +9,9 @@
 
 - ### [Notes](./02-IntroToJavaScriptFunctionsAndEvents/Notes.md)
 - ### [First Functions](./02-IntroToJavaScriptFunctionsAndEvents/01-FirstFunctions/)
+- ### [Alerts Using Functions](./02-IntroToJavaScriptFunctionsAndEvents/02-followerCountMilestoneAlert/)
 *coming soon:*
-- ### Alerts Using Functions
+
 - ### Survey Form Using Events
 
 ## Summary
