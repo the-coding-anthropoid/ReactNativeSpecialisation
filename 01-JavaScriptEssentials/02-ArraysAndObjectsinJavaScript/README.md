@@ -2,9 +2,10 @@
 
 ## Intro To Arrays in JavaScript
 
+
+- ### [Notes](./01-IntoToArraysInJavaScript/notes.md)
+- ### [Array Iteration](./01-IntoToArraysInJavaScript/01-ArrayIteration/)
 *coming soon*
-- ### Notes
-- ### Array Iteration
 - ### Array Methods
 
 ## Intro to Objects and Strings in JavaScript
