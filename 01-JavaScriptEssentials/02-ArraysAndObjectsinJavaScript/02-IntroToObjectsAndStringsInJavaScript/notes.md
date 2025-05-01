@@ -86,7 +86,7 @@ const propertyName = "age";
 console.log(person[propertyName]);  // Output: 30
 ```
 
-> [NOTE]
+> [!NOTE]
 > Object Literals look like they are the same as maps.
 
 ## Arrays of Objects
