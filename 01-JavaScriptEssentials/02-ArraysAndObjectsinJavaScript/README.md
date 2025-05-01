@@ -9,6 +9,7 @@
 
 ## Intro to Objects and Strings in JavaScript
 
+- ### [Notes](./02-IntroToObjectsAndStringsInJavaScript/notes.md)
 *coming soon*
 - ### Book Management System Using Objects
 - ### Text Analysis Tool Using String Manipulation
