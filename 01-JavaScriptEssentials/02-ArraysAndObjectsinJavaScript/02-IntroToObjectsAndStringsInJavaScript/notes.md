@@ -106,3 +106,54 @@ console.log(students[1]["age"]);    // output: 22
 ```
 
 You can nest both arrays and objects inside root objects.
+
+## Strings and String Manipulation
+
+Literal strings can be eclosed in either single or double quotes. However, backticks are required for string interpolation;
+
+```javascript
+const message = "These two strings are the same.";
+const repeat = 'These two strings are the same.';
+const method = "interpolation";
+const interpolated = `this string uses ${method}.`;
+```
+
+- Use the '+' operator to concatenate two strings.
+    ```javascript
+    const firstName = "John";
+    const lastName = "Doe";
+    const fullName = firstName + " " + lastName;        // returns: "John Doe"
+    ```
+- Use bracket notation with zero-based indexing to access individual characters
+
+    ```javascript
+    const text = "JavaScript";
+    const firstCharacter = text[0];     // returns: 'J'
+    ```
+- Strings have built in methods such as:
+    ```javascript
+    const text = "Hello, World!";
+    const lowerCaseText = text.toLowerCase();       // returns: "hello, world!"
+
+    const upperCaseText = text.toUpperCase();       // returns: "HELLO, WORLD!"
+
+    const hasFox = text.includes("fox");        // returns: false
+
+    const indexOfWorld = text.indexOf("World");     // returns: 7
+
+    const subText1 = text.substring(0,5);       // returns: "Hello"
+    // substring(0,5) extracts from index 0, inclusive to index 5, exclusive
+
+    const subText2 = text.slice(7);     // returns: "World!"
+    // slice(7) starts at index 7 and runs till the end of the string
+
+    const subText3 = text.substr(7, 5)      // returns: "World"
+    // substr(7, 5) starts at index 7 and extracts 5 total characters
+
+    const updatedText = text.replace("World", "Universe");  // returns: "Hello, Universe"
+
+    const splitText = text.split(',');      // returns: ["Hello",  " World!"]
+    // split(',') uses the comma character as a delimiter
+
+    const trimmedText = splitText[1].trim();        // returns: "World!"
+    ```
