@@ -11,5 +11,4 @@
 
 - ### [Notes](./02-IntroToObjectsAndStringsInJavaScript/notes.md)
 - ### [Book Management System Using Objects](./02-IntroToObjectsAndStringsInJavaScript/01-BookManagementUsingObjects/)
-*coming soon*
-- ### Text Analysis Tool Using String Manipulation
+- ### [Text Analysis Tool Using String Manipulation](./02-IntroToObjectsAndStringsInJavaScript/02-StringManipulation/)
