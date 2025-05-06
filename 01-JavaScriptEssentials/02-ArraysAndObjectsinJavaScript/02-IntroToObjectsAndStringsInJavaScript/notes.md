@@ -157,3 +157,79 @@ const interpolated = `this string uses ${method}.`;
 
     const trimmedText = splitText[1].trim();        // returns: "World!"
     ```
+
+## Math and Date Objects
+
+### Math object
+
+| Math object method | Description |
+| :- | :- |
+| `Math.round(number)` | returns number rounded to nearest integer |
+| `Math.ceil(number)` | returns number rounded up to integer value |
+| `Math.floor(number)` | returns number rounded down to integer value |
+| `Math.pow(base, exponent)` | returns base to the power exponent |
+| `Math.sqrt(base)` | returns the square root of base |
+| `Math.log(base)` | returns the natural log of base |
+| `Math.random()` | generates a random number between 0 and 1 |
+
+### Date Object
+
+```javascript
+/* == Create DateTime Object == */
+
+const currentDate = new Date();     // current date and time
+const specificDate = new Date(2023, 0, 15);     // January 15, 2023
+const fromMilliseconds = new Date (1672569600000);      // from milliseconds since the epoch
+// the epoch started: Thursday, 1 January 1970 00:00:00 GMT
+// 1672569600000ms from the epoch is: Sunday, 1 January 2023 10:40:00 GMT
+
+
+/* == Access DateTime Properties == */
+
+const year = currentDate.getFullYear();        // year of currentDate creation
+const mont = currentDate.getMonth();       // month (0-11) of currentDate creation
+const day = currentDate.getDate();      // day of the month (1-31) of currentDate creation
+const hours = currentDate.getHours();       // hour (0-23) of currentDate creation
+const minutes = currentDate.getMinutes();       // minute (0-59) of currentDate creation
+const seconds = currentDate.getSeconds();       // seconds (0-59) of currentDate creation
+
+
+/* == Formatting Dates == */
+
+const formattedDate = specificDate.toDateString();      // e.g. "Sun Jan 15 2023"
+const formattedTime = specificDate.toTimeString();      // e.g. "00:00:00 GMT+0000 (Greenwich Mean Time)"
+const formattedDate = specificDate.toLocaleDateString();        // e.g. "15/01/2023"
+const formattedTime = specificDate.toLocaleTimeString();        // e.g. "00:00:00"
+
+
+/* == Date Arithmetic == */
+
+specificDate.setFullYear(2024);     // set the year to 2024
+specificDate.setDate(specificDate.getDate() - 7);       // set specificDate 7 days in the past
+const futureDate = new Date();
+futureDate.setDate(futureDate.getDate() + 30);      // set date 30 days from now
+```
+
+### Timing Functions
+
+To schedule execution after a specified delay:
+
+```javascript
+setTimeout(function() {
+    console.log("This message appears after a delay.");
+}, 2000);   // displayed after a 2-second delay
+```
+to schedule repeated execution at specified times:
+
+```javascript
+let count = 0;
+const intervalId = setInterval(function() {
+    console.log("Count: " + count);
+    cont++;
+    if (count > 5) {
+        clearInterval(intervalId);  // stops the function
+    }
+
+}, 1000);   // repeats every second
+```
+
