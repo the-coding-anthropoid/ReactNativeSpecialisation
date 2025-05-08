@@ -1,15 +1,3 @@
-<style>
-
-.md-typeset__table {
-  width: 100%;
-}
-
-.md-typeset__table table:not([class]) {
-  display: table
-}
-
-</style>
-
 # Working With Dom
 
 ## Debugging in JavaScript
