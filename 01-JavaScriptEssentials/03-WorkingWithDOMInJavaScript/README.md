@@ -4,8 +4,7 @@
 
 - ### [Notes](./01-WorkingWithDOM/notes.md)
 - ### [Intro To The DOM](./01-WorkingWithDOM/01-IntroToTheDom/)
-*coming soon*
-- ### Create A To-Do List Using JavaScript
+- ### [Create A To-Do List Using JavaScript](./01-WorkingWithDOM/02-CreateAToDo/)
 
 ## Traversing And Styling Of DOM
 
