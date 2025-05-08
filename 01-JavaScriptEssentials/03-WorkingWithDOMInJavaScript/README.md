@@ -2,9 +2,9 @@
 
 ## Working With DOM
 
-- ### [Notes]
+- ### [Notes](./01-WorkingWithDOM/notes.md)
+- ### [Intro To The DOM](./01-WorkingWithDOM/01-IntroToTheDom/)
 *coming soon*
-- ### Intro To The DOM
 - ### Create A To-Do List Using JavaScript
 
 ## Traversing And Styling Of DOM
