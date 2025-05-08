@@ -8,6 +8,7 @@
 
 ## Traversing And Styling Of DOM
 
+
+- ### [Notes](./02-TraversingAndStylingOfDOM/notes.md)
 *coming soon*
-- ### Notes
 - ### Develop Colourful Memory Match Game Using JavaScript DOM
