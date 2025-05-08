@@ -25,12 +25,12 @@ Hosted on [Coursera](https://www.coursera.org/)
 
 <hr/>
 
-* ### [03 - Working With DOM in JavaScript](./03-WorkingWithDOMInJavaScript/d)
+* ### [03 - Working With DOM in JavaScript](./03-WorkingWithDOMInJavaScript/)
     Learn about debugging techniques and tools in JavaScript and explore the Try-catch block as a debugging tool; work with the DOM and its various nodes.
 
 <hr/>
 
-* ### [04 - JavaScript Async](./04-JavascriptAsync/d)
+* ### [04 - JavaScript Async](./04-JavascriptAsync/)
     Learn the importance of JavaScript Object Notion (JSON) in data interchange; understand asynchronous and synchronous programming using examples
 
 <hr/>

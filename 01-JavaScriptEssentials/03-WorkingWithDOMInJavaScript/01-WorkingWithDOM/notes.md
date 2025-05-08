@@ -67,7 +67,7 @@ block-beta
 
 ---
 
-<table style="width:100%">
+<table>
 <tr>
 <td style="width:420px">
 
@@ -91,7 +91,7 @@ block-beta
 ```
 
 </td>
-<td>
+<td style="width:100%">
 
 ```mermaid
 block-beta
