@@ -197,3 +197,45 @@ Search and access specific items inside a parent or container element
 
 - `containerElement.querySelector(selector)`: first element that matches the selector inside the containerElement
 - `containerElement.querySelectorAll(selector)`: NodeList of all elements that match the selector inside the containerElement; empty list if no match found
+
+## Styling The DOM
+
+### Naming Conventions
+
+- __element.style.property:__ Access and modify inline styles.
+    ```javascript
+    const button = document.getElementById("myButton");
+    button.style.backgroundColor = "blue";
+    button.style.fontSize = "16px";
+    ```
+- __element.classList:__ Add, remove or toggle CSS Classes.
+    ```javascript
+    const button = document.getElementById("myButton");
+    button.classList.add("newClass");
+    button.classList.remove("oldClass");
+    button.classList.toggle("class");
+
+    if (button.classList.contains("class")) {
+        button.style.backgroundColor = "green";
+    }
+    ```
+- __element.setAttribute:__ Set or modify style attributes using inline CSS.
+    ```javascript
+    const button = document.getElementById("myButton");
+    button.setAttribute("style", "backgroundColor: yellow; color: black;");
+    ```
+- __element.style.cssText:__ Set the inline style of an element using a string.
+    ```javascript
+    const button = document.getElementById("myButton");
+    button.style.cssText = "backgroundColor: black; color: white;";
+    ```
+- __element.style.setProperty:__ Set CSS property with, optional, important flag. The important rule in CSS is used to add more importance to a property/value than normal.  It overrides __ALL__ previous styling rules for that specific property on that element.
+    ```javascript
+    const button = document.getElementById("myButton");
+    button.style.setProperty("color", "red", "important");
+    ```
+- __element.style.removeProperty:__ Remove CSS properties from the inline style.
+    ```javascript
+    const button = document.getElementById("myButton");
+    button.removeProperty("color");
+    ```
