@@ -10,5 +10,4 @@
 
 
 - ### [Notes](./02-TraversingAndStylingOfDOM/notes.md)
-*coming soon*
-- ### Develop Colourful Memory Match Game Using JavaScript DOM
+- ### [Develop Colourful Memory Match Game Using JavaScript DOM](./02-TraversingAndStylingOfDOM/01-ColorfulMemoryGame/)
