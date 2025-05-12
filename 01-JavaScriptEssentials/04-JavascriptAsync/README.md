@@ -2,12 +2,13 @@
 
 ## JavaScript Async And HTTP Requests
 
+
+- ### [Notes](./01-JavaScriptAsyncAndHTTPRequests/notes.md)
 *coming soon*
-- ### Notes
 - ### Develop An Application To Fetch Health Articles Using XMLHttpRequest
 
 ## Asynchronous Data Retrieval Techniques
 
-
+*coming soon*
 - ### Notes
 - ### Call API To fetch Weather Data Using Fetch
