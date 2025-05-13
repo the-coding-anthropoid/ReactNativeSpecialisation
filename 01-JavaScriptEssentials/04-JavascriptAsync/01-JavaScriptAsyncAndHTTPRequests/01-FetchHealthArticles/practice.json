@@ -1,0 +1,73 @@
+{
+  "articles": [
+    {
+      "title": "My Great Article",
+      "date": "2025-05-13",
+      "author": "The Big Lebowski",
+      "text": [
+        [
+          "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+          "Quisque faucibus ex sapien vitae pellentesque sem placerat.",
+          "In id cursus mi pretium tellus duis convallis.",
+          "Tempus leo eu aenean sed diam urna tempor.",
+          "Pulvinar vivamus fringilla lacus nec metus bibendum egestas.",
+          "Iaculis massa nisl malesuada lacinia integer nunc posuere.",
+          "Ut hendrerit semper vel class aptent taciti sociosqu.",
+          "Ad litora torquent per conubia nostra inceptos himenaeos."
+        ],
+        [
+          "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+          "Quisque faucibus ex sapien vitae pellentesque sem placerat.",
+          "In id cursus mi pretium tellus duis convallis.",
+          "Tempus leo eu aenean sed diam urna tempor.",
+          "Pulvinar vivamus fringilla lacus nec metus bibendum egestas.",
+          "Iaculis massa nisl malesuada lacinia integer nunc posuere.",
+          "Ut hendrerit semper vel class aptent taciti sociosqu.",
+          "Ad litora torquent per conubia nostra inceptos himenaeos."
+        ]
+      ]
+    },
+    {
+      "title": "You Won't Believe This One Quick Hack!!",
+      "date": "2025-04-29",
+      "author": "A. I. Hacks",
+      "text": [
+        [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Cras viverra lectus quis turpis sollicitudin pretium. Fusce nec sapien nunc.",
+          "Maecenas sagittis lorem sed nulla luctus posuere quis eu eros.",
+          "Mauris molestie, libero et aliquet viverra, magna libero sollicitudin ipsum, quis malesuada metus nisi id justo.",
+          "Suspendisse dapibus porta sapien, non tincidunt quam finibus non.",
+          "Pellentesque non enim sed purus facilisis vehicula sed vitae nisl.",
+          "Ut lacinia facilisis mi id dictum. Cras sagittis nibh ut risus finibus porta.",
+          "Mauris aliquam sapien suscipit enim luctus fermentum.",
+          "Sed suscipit id tellus sed porttitor.",
+          "Nullam tincidunt blandit vulputate."
+        ],
+        [
+          "Etiam eleifend bibendum lorem, euismod venenatis mauris scelerisque in.",
+          "Fusce nec augue lacinia, vestibulum enim at, interdum nunc. Vestibulum aliquam nulla nulla, non tristique massa dignissim vitae.",
+          "Sed in rhoncus felis.",
+          "Nullam sed justo vitae metus ornare sodales.",
+          "Aenean ante justo, suscipit non ipsum ut, maximus venenatis arcu.",
+          "Cras sit amet augue sapien. Pellentesque quam massa, viverra eget nibh non, ornare ullamcorper orci.",
+          "Fusce mattis pharetra lacus condimentum iaculis.",
+          "Nulla facilisi. Etiam tristique a ante commodo accumsan. Donec tincidunt erat sit amet volutpat condimentum.",
+          "Sed ut diam magna. Nulla at magna placerat, pulvinar nisi in, dignissim justo."
+        ],
+        [
+          "Mauris pharetra, justo quis placerat efficitur, odio mauris rutrum mi, et auctor leo lectus quis urna.",
+          "Nunc bibendum, metus vel fermentum vulputate, nunc nunc elementum arcu, vulputate volutpat lorem felis at tortor.",
+          "Sed interdum arcu vitae magna faucibus vehicula. Nullam vitae ipsum ac ante ullamcorper rhoncus.",
+          "Maecenas eget sagittis odio. Ut id faucibus nulla, vel scelerisque tellus.",
+          "Donec in magna lorem. In in nibh volutpat, lobortis sem quis, placerat risus.",
+          "Nam id enim lobortis, hendrerit nisi et, fermentum risus. Curabitur a pretium massa, quis consequat velit.",
+          "Donec vitae libero imperdiet, mollis nunc vitae, sollicitudin velit. Aenean non mi ex.",
+          "Donec vulputate leo fringilla, cursus nibh consequat, vehicula nunc.",
+          "Sed libero lorem, sodales et nunc nec, suscipit pulvinar lectus.",
+          "Donec vitae felis fringilla, porta nibh nec, eleifend orci. Etiam id augue eu tortor ornare iaculis"
+        ]
+      ]
+    }
+  ]
+}
