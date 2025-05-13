@@ -4,8 +4,7 @@
 
 
 - ### [Notes](./01-JavaScriptAsyncAndHTTPRequests/notes.md)
-*coming soon*
-- ### Develop An Application To Fetch Health Articles Using XMLHttpRequest
+- ### [Develop An Application To Fetch Health Articles Using XMLHttpRequest](./01-JavaScriptAsyncAndHTTPRequests/01-FetchHealthArticles/)
 
 ## Asynchronous Data Retrieval Techniques
 
