@@ -4,7 +4,7 @@ const geoUrl = "geo/1.0/direct";
 const apiUrl = "data/2.5/weather";
 
 //!! pretty sure this publicly exposes my api key !!
-const aid = "appid=35706ca352a3b508193a298076f684f9";
+const aid = "appid=lookup_real_key"; // actually got an alert
 
 
 document.getElementById('weatherForm').addEventListener('submit', showWeatherDetails);
