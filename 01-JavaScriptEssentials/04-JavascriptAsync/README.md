@@ -8,6 +8,6 @@
 
 ## Asynchronous Data Retrieval Techniques
 
+- ### [Notes](./02-AsynchronousDataRetrievalTechniques/notes.md)
 *coming soon*
-- ### Notes
 - ### Call API To fetch Weather Data Using Fetch
