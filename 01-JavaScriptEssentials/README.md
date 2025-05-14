@@ -40,3 +40,11 @@ Hosted on [Coursera](https://www.coursera.org/)
 
 
 <hr/>
+
+## Topics For Potential Further Reading
+
+- ### [Function Types](./01-IntroToJavaScriptDevelopment/02-IntroToJavaScriptFunctionsAndEvents/Notes.md/#types-of-functions)
+
+- ### Promises feat. callbacks
+    - [Promises](./04-JavaScriptAsync/02-AsynchronousDataRetrievalTechniques/notes.md/#promises)
+    - [Callbacks](./04-JavaScriptAsync/02-AsynchronousDataRetrievalTechniques/notes.md/#callbacks)
