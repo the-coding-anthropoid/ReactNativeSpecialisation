@@ -41,6 +41,11 @@ Hosted on [Coursera](https://www.coursera.org/)
 
 <hr/>
 
+## Extras
+
+- ### [Alternative Printable Cheat-Sheet](./Javascript-Cheat-Sheet.pdf)
+    Find the source [here :arrow_forward:](https://websitesetup.org/wp-content/uploads/2020/09/Javascript-Cheat-Sheet.pdf)
+
 ## Topics For Potential Further Reading
 
 - ### [Function Types](./01-IntroToJavaScriptDevelopment/02-IntroToJavaScriptFunctionsAndEvents/Notes.md/#types-of-functions)
