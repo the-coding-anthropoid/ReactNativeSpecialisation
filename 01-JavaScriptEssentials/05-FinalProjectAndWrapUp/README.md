@@ -3,7 +3,7 @@
 ## Practice Project
 
 *coming soon*
-- ### [Healthcare Census]()
+- ### [Healthcare Census](./01-HealthcareCensus/)
 
 ## Final Project
 
