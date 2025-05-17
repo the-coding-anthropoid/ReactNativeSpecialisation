@@ -2,7 +2,6 @@
 
 ## Practice Project
 
-*coming soon*
 - ### [Healthcare Census](./01-HealthcareCensus/)
 
 ## Final Project
